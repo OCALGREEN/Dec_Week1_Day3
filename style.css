@@ -117,3 +117,29 @@
 a {
     color: white;
 }
+
+
+
+/*              This code is for Flexible Columns HTML              */
+.row {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col, .col-2, .col-3 {
+    background-color: green; ;
+    display: flex;
+    padding: 25px;
+    margin: 5px; 
+
+}
+.col {
+    flex: 1; 
+}
+.col-2 {
+    flex: 2; 
+}
+.col-3 {
+    flex: 3; 
+}
